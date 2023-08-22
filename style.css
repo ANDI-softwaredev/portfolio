@@ -1,0 +1,302 @@
+*{
+	font-family: "Century Gothic";
+	margin: 0px;
+}
+/*NAVIGATION BAR*/
+.navigation_bar{
+position: sticky;
+top: 0px;
+text-align: right;
+padding-right: 10px ;
+padding-top:5px ;
+padding-block: 10px;
+width: 100%;
+background: black;
+
+}
+li.nav{
+	list-style-type: none;
+	display: inline-flex;
+	padding-right: 5%;
+	
+
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: #FFB3C1;
+	transition: 0.5s;
+
+}
+
+/*LANDING PAGE*/
+.home_page{
+background-image: url(img/copy.png);
+	background-position:;
+	height: 95vh;
+		
+}
+header{
+	background: linear-gradient(to right, black, black, transparent);
+height: 95vh;
+color: white;
+font-size: 50px;
+}
+
+#txt{
+	padding-top: 15%;
+	text-align: center;
+}
+
+#icon{
+	height: 30px;
+	width: 30px;
+}
+
+button{
+	height: 30px;
+	width: 150px;
+	border: 1px solid #FFB3C1;
+}
+button:hover{
+	background:#FFB3C1 ;
+	color: black;
+	transition: 0.5s;
+
+}
+button a{
+	color: black;
+}
+button a:hover{
+	color: black;
+}
+/*ABOUT PAGE*/
+.about_me{
+height: 95vh;
+
+}
+article{
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+
+}
+
+#illustration{
+	height: 35%;
+	float: left;
+	animation: movement 6s infinite;
+}
+
+@keyframes movement{
+0% {transform: translateX(0px);
+transform: translateY(0px);}
+25%  { transform: translateX(2px);
+transform: translateY(2px); }
+75%  { transform: translateX(10px);
+transform: translateY(10px); }
+100% { transform: translateX(5px);
+transform: translateY(5px); }
+}
+
+#illustration2{
+	height: 200px;
+	float: right;
+	margin-right: 0px;
+	animation: movement2 4s infinite;
+}
+@keyframes movement2{
+0% {transform: translateX(5px);
+transform: translateY(5px);}
+25%  { transform: translateX(10px);
+transform: translateY(10px); }
+75%  { transform: translateX(2px);
+transform: translateY(2px); }
+100% { transform: translateX(0px);
+transform: translateY(0px); }
+}
+
+.container 
+{
+	
+	width: 1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+.container .card
+{
+	
+	max-width: 300px;
+	height: 420px;
+	background: black;
+
+	margin: 10px 10px;
+	padding: 25px 15px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+	transition: 0.3s ease-in-out;
+}
+
+.container .card .content
+{
+	
+	padding: 10px 15px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	transition: 0.3s ease-in-out;
+}
+/*.container .card:hover .content
+{
+	visibility: visible;
+	opacity: 1;
+	margin-top: -40px;
+	transition-delay: 0.3s;
+}*/
+.po{
+	font-size: 20px;
+	text-align: center;
+	color: #FFB3C1;
+}
+
+/*PORTFOLIO*/
+.portfolio{
+	font-size: 50px;
+	text-align: center;
+	color: #FFB3C1;
+	background: linear-gradient(to right, black, black, transparent);
+background: fixed;
+}
+#portfolio{
+margin-top: 75vh;
+}
+
+#long{
+height: 300px;
+display: inline-flex;
+align-content: space-between;
+padding: 80px;
+border: white ;
+border-style: inset;
+border-color: #FFB3C1 ;
+}
+#long:hover{
+	transform: scale(1.5);
+	transition: 1s;
+	border: none;
+
+}
+#short{
+height: 300px;
+}
+#short:hover{
+	transform: scale(1.5);
+	transition: 1s;
+}
+/*CONTACT FORM*/
+.contact_form{
+height: 90vh;
+
+}
+
+.pink{
+	font-size: 50px;
+	text-align: center;
+	color: #FFB3C1;
+}
+form{ margin-top: 60px;
+			align-content: center;
+			left: 25%;
+			height: 75%;
+			width: 700px;
+			padding: 12px 15px;
+			margin-left: 25%;
+			margin-top: 50px;
+
+
+		}
+	.form{
+						align-content: center;
+			left: 20%;
+			height: 75%;
+			width: 400px;
+			margin-left: 15%;
+			margin-top: 50px;
+		}
+		.form_control{
+			width: 600px;
+			background: transparent;
+			border: none;
+			outline: none;
+			border-bottom: 1px solid gray;
+			font-size: 18px;
+			margin-bottom: 5px;
+		}
+input{
+
+}
+		.input_ctrl{
+display: flex;
+flex-direction: column;
+		}
+		.input_ctrl input{
+display: block;
+
+width: 90%;
+font-size: 12px;
+		}
+		textarea{
+display: block;
+padding: 10px;
+width: 90%;
+font-size: 12px;
+		}
+		.input_ctrl input:focus{
+			outline: 0;
+		}
+		.input_ctrl.success input{
+			border-color: green;
+		}
+
+		.input_ctrl.error input{
+			border-color: red;
+		}
+.input_ctrl.error{
+			color: red;
+			height: 13px;
+			font-size: 15px;
+			padding: 15px;
+			text-align: right;
+		}
+	 #memo{
+		font-size: 15px;
+		height: 150px;
+		width: 90%;
+		}
+		#phone{
+			font-size: 15px;
+		}
+		#name{
+			font-size: 15px;
+		}
+		#email{
+			font-size: 15px;
+		}
+
+
+/*FOOTER*/
+footer{
+	background-color: #FFB3C1;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+}

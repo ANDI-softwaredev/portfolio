@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Portfolio, web developer, computer science, freelancer">
+	<meta name="author" content="Andile Dube"> 
+	<title> Andile Dube Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon"  href="img\favicon.png">
+</head>
+<body>
+	<!----NAVIGATION BAR------>
+<div class="navigation_bar">
+	<ul>
+		<li class="nav"> <a href="index.html"> HOME </a></li>
+		<li class="nav"> <a href="#about.html"> ABOUT </a></li>
+		<li class="nav"> <a href="#portfolio.html"> PORTFOLIO </a></li>
+		<li class="nav"> <a href="#contact.html"> CONTACT </a></li>
+	</ul>
+</div>
+<!----LANDING PAGE------>
+<section class="home_page">
+	<header>	
+		<div id="txt">Developer.Designer.Influencer <br>
+	 <a href=" "><img src="icons/linkedin.png" id="icon"> </a>
+	 <a href=" "><img src="icons/facebook.png" id="icon"> </a>
+	 <a href=" "><img src="icons/instagram.png"id="icon"> </a> <br>
+	<button> <a href=" ">HIRE ME!</a></button> 
+	<button> <a href="CV_ANDILE_DUBE.pdf" download="CV_ANDILE_DUBE.pdf">DOWNLOAD CV</a></button> 
+	</div> 
+</header>
+
+
+</section>
+
+<!----ABOUT------>
+<section class="about_me" id="about">
+	<img src="icons/about_illustration.png" id="illustration">
+<article>
+	<div class="portfolio"> <br> Hey there!  </div>
+	<br>
+	I'm a freelance developer who also has a knack for graphic design and content creation. I can help you with all your web development needs from designing your website to optimizing your SEO and if you need some eye-catching visuals or engaging written content, I can take care of that too! I'm your one-stop shop for all things digital. Let's work together to make your online presence shine!
+
+</article>
+<center> 
+<div class="container">
+			<div class="card">
+		
+		<div class="content"> <h2 class="po"> EDUCATION AND AWARDS</h2> <p> <br><ul>
+<li> Bachelor of Technology (Honours) in Computer Science (2025) (HIT) </li>
+</ul> 
+
+<ul>
+	<li>Ordinary Level (2015- 2018)
+o 13 ‘O’ level passes including Mathematics, English Language, Physics, Chemistry 
+and Combined Science </li>
+	<li>Advanced Level (2019- 2020)
+o ‘3’ A Level passes in Mathematics, Physics and Chemistry </li>
+</ul></p>
+<ul> AWARDS AND SCHOLARSHIPS
+<li>Zimbabwe Science Fair 2020 (Gold Medal) </li>
+<li>Genius Olympiad Delegate Award Finalist and Rochester Institute of Technology scholarship </li>
+</ul>
+	     </div>
+	</div>
+
+			<div class="card">
+	
+		<div class="content"> <h2 class="po"> SKILL SET </h2> <p> <br><ul>
+	<li>Front End and Back End Web Development with HTML, CSS, JavaScript and PHP </li>
+	<li>Search Engine Optimization </li>
+	<li>Software project management </li>
+	<li> Database design and SQL programming </li>
+	<li>Graphic design </li>
+	<li> Programming in C# and Java </li>
+	<li>Microsoft office packages </li>
+</ul> </p>
+	     </div>
+	</div>
+
+				<div class="card">
+
+		<div class="content"> <h2 class="po">HOBBIES AND VOLUNTARY WORK</h2> <p><br><ul>
+	<li>Participating in hackathons </li>
+	<li>Public speaking </li>
+	<li>Mentoring and leading a group of 10- 15 year olds in a community club </li>
+</ul></p> 
+	     </div>
+	</div>
+</center>
+
+	<img src="icons/about_illustration2.png" id="illustration2">
+</section>
+
+<!----PORTFOLIO------>
+<section class="portfolio" id="portfolio">
+	My Projects <br> <br>
+	<a href="#" title="Cosmetic poster design"> <img src="img/project1.png" id="long"> </a>
+	<a href="#" title="Club event poster design"> <img src="img/project2.png" id="long"></a>
+	<a href="#" title="Church event poster design"> <img src="img/project3.png" id="long"></a> <br>
+	<a href="#" title="Website devepment"> <img src="img/project4.jpg"id="short"></a>
+	<a href="#" title="Website devepment"> <img src="img/project5.jpg"id="short"></a> <br>
+	<a href="#" title="Calendar design"> <img src="img/project6.png" id="long"></a>
+	<a href="#" title="Book cover design"> <img src="img/project7.jpg"id="long"></a>
+	<a href="#" title="Event poster design"> <img src="img/project8.png" id="long"></a>
+</section>
+
+<!----CONTACT FORM------>
+<div class="pink">Get In Touch! </div>
+<section class="contact_form" id="contact">
+
+	<form action="insert.php" id="form" method="POST">
+		
+			<div class="input_ctrl">
+	<input placeholder="Andile Dube" id="name" name="name" type="text" class="form_control"><br> <br>
+	<div class="error"></div>
+</div>
+
+	
+	<div class="input_ctrl">
+	<input placeholder="0780982626" id="phone" type="n" name="phone" class="form_control"><br> <br>
+	<div class="error"></div>
+</div>
+
+
+	<div class="input_ctrl">
+	<input placeholder="dubeandilet@gmail.com" id="email" name="email" class="form_control"> <br><br>
+	<div class="error"></div>
+</div>
+
+	
+	<div class="input_ctrl">
+     <textarea id="memo" class="form_control" name="memo" rows="3" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat."></textarea> 
+     <div class="error"></div>
+ </div>
+  <br> <br>
+  <center> 
+  		<button> <a href="#" type="submit" formaction="insert.php" > SUBMIT</a> </button>
+		<button> <a href="#" type="reset">CLEAR </a></button>
+	</center>
+	</form>
+</section>
+
+<footer> Made with &#x2764;&#xFE0F; by Andile <!---&copy;hautecode---> </footer>
+	<!--------ICONS AND ILLUSTRATIONS USED
+	<a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by popcornarts - Flaticon</a>
+	<a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Grow studio - Flaticon</a>
+	<a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Grow studio - Flaticon</a>
+	<a href="https://www.flaticon.com/free-icons/tiktok" title="tiktok icons">Tiktok icons created by Grow studio - Flaticon</a>
+
+	<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
+	<a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Freepik - Flaticon</a>
+	<a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Freepik - Flaticon</a>
+	<a href="https://www.flaticon.com/free-icons/tiktok" title="tiktok icons">Tiktok icons created by Freepik - Flaticon</a>
+	<a href="https://www.flaticon.com/free-icons/menu" title="menu icons">Menu icons created by Freepik - Flaticon</a>
+	<a href="https://www.flaticon.com/free-icons/mental-health" title="mental health icons">Mental health icons created by Nueng_wana - Flaticon</a>
+	Illustration by <a class="link_pro" href="https://freeicons.io/business-illustration/target-medical-center-illustration-85">Athul Mc</a>
+                            on <a href="https://freeicons.io">freeicons.io</a>
+                            Illustration by <a class="link_pro" href="https://freeicons.io/business-illustration/shopping-tag-science-illustration-73">Athul Mc</a>
+                            on <a href="https://freeicons.io">freeicons.io</a>
+	--------->
+</body>
+</html>
