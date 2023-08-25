@@ -170,6 +170,14 @@ transform: translateY(0px); }
 	font-size: 15px;
 	transition: 0.3s ease-in-out;
 }
+.container .card:hover{
+	background: transparent;
+}
+.container .card .content:hover{
+background: transparent;
+color: black;
+}
+
 /*.container .card:hover .content
 {
 	visibility: visible;
@@ -192,12 +200,63 @@ transform: translateY(0px); }
 	font-size: 50px;
 	text-align: center;
 	color: #FFB3C1;
-	background: linear-gradient(to right, black, black, transparent);
-
+	height: 80vh;
+	background: linear-gradient(black, black,transparent);
 }
 #portfolio{
 margin-top: 75vh;
 }
+/*.contain{
+	 width: 25%;
+
+    overflow: hidden;
+    border: 8px solid #FFB3C1;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+.wrapper img{
+    width: 100%;
+    height: 90vh;
+    cursor: zoom-in;
+}
+.wrapper img:hover{
+	transform: scale(1.5);
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+*/
+
 
 #long{
 height: 300px;
@@ -221,8 +280,8 @@ height: 300px;
 /*CONTACT FORM*/
 .contact_form{
 height: 90vh;
-
-}
+background-image:  url(icons/bgillustration2.png);
+background-size: cover;}
 
 .pink{
 	font-size: 50px;
@@ -393,8 +452,11 @@ background-image: url(img/background2.jpg);
 	background-size: cover;
 	
 }
-li{
+ li{
 	visibility: hidden;
+}
+#l{
+	visibility: visible;
 }
 	header{
 	background: rgba(0, 0, 0, 0.7);
@@ -440,10 +502,22 @@ article{
 height: 10%;
 width: 100%;
 }
+.container .card .content
+{
+	
+	padding: 10px 15px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	transition: 0.3s ease-in-out;
+}
+.portfolio{
+	height: 95vh;
+}
 
 .contact_form{
 height: 90vh;
-
+margin-top: 190vh;
 }
 
 .pink{
@@ -451,7 +525,7 @@ height: 90vh;
 	text-align: center;
 	color: #FFB3C1;
 }
-form{ margin-top: 60px;
+form{ margin-top: 70px;
 			align-content: center;
 			left: 25%;
 			height: 75%;
